@@ -1,0 +1,26 @@
+/* Edit these colors to theme the game. For a good selection of flat-UI colors, try: http://flatuicolors.com/
+   Of course, feel free to add elements not listed here if you wish to change their; these are just the ones
+   I modified. */
+
+
+body, html {
+	background-color: #2C3E50;
+	color: #ECF0F1;
+}
+
+/* The bg color and thumb color for the range input. Thumb color only works in webkit. 'color' sets the text
+   color for when it falls back to a text input, for browsers that don't support range. Make sure to pick 
+   something that contrasts well with 'background-color'. */
+
+input[type='range'] {
+	color: #FFFFFF;
+	background-color: #C0392B;  
+}  
+
+input[type='range']::-webkit-slider-thumb {  
+	background-color:#E74C3C;  
+}  
+
+#back {
+	color: inherit;
+}

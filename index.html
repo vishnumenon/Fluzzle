@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+	<title>My Awesome Game</title>
+	<!-- Loading Bootstrap -->
+	<link href="Flat-UI/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<!-- Loading Flat UI -->
+	<link href="Flat-UI/css/flat-ui.css" rel="stylesheet">
+	<!-- Loading the Fluzzle CSS -->
+	<link rel="stylesheet" type="text/css" href="fluzzle.css" />
+	<!-- Edit this file to change the color scheme -->
+	<link rel="stylesheet" type="text/css" href="fluzzle-colors.css" />
+	<!-- Loading your own CSS -->
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<!-- Loading JQuery and JQuery UI -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" ></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<!-- Loading Touch Punch for touch interaction -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+</head>
+<body>
+	<!-- Link back to home page -->
+	<a href="http://example.com" id="back"><span class="fui-arrow-left"></span>Back to My Home Page</a>
+	<!-- count moves here. I thougt it was common enough to include, but remove it if you don't need it. You will have to set it and access it yourself; 
+	I just put it in place and styled it. If you want, replace it with some other HUD-type data, such as a timer -->
+	<div id="move_counter">Moves:<br /><span id="moves"></span></div>
+	<div class="container main">
+		<h1 class="title_logo"><a href="#" class="play_again">My Awesome Game</a></h1>
+		<br />
+		<!-- this section loads first, and it's where you set any settings for the game -->
+		<div id="initial_settings_panel" class="fluzzle_panel">
+			<br />
+			<div id="setting_1_display">
+				Play with <div id="setting_1_value">8</div> chickens <br />
+			</div>
+			<br /> <br /><br />
+			<input id="setting_1_value_slider" type="range" MIN="2" max="50" step="1" value="8" class="ui-slider" />
+			<br /><br /> <br /><br />
+			<a href="#" class="play btn btn-huge btn-warning">Play!</a>
+		</div>
+		<!-- this section loads second, and it's where you play the actual game -->
+		<div id="game_panel" class="fluzzle_panel">
+			<div id="game">
+				<!-- Your amazing game goes right here -->
+			</div>
+			<div id="instructions">
+				<ul>
+					<li> First, do this. </li>
+					<li> Then, when you're done, go ahead and do this. </li>
+					<li> Only then can you even consider doing this. </li>
+					<li> How many moves will you take? </li>
+				</ul>
+			</div>
+		</div>
+		<!-- this section is for when the player wins -->
+		<div id="winner_panel" class="fluzzle_panel">
+			<h2>You Won!</h2>
+			You used: <span id="moves_at_completion"></span> moves. <br /> 
+			<a href="#" class="play_again" class="btn btn-huge btn-warning">Play Again!</a>
+		</div>
+		<!-- and this section is for when the player looses -->
+		<div id="loser_panel">
+			<h2>Game Over</h2>
+			Better luck next time
+			<a href="#" class="play_again" class="btn btn-huge btn-warning">Play Again!</a>
+		</div>
+
+	</div>
+	<!-- Leave this at the bottom -->
+	<script src="fluzzle.js"> </script>
+	<!-- Your scripts go in this file: -->
+	<script src="main.js"></script>
+</body>
+</html>

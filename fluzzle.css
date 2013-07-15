@@ -1,0 +1,194 @@
+.main {
+	text-align: center;
+}
+
+.title_logo {
+	font-size: 120px;
+	font-weight: 900;
+	letter-spacing: -2px;
+	line-height: 100px;
+	margin-top: 50px;
+	background: none;
+}
+
+.title_logo > a {
+	text-decoration: none;
+}
+
+input[type='range'] {
+	width: 700px;
+	height:20px;
+	text-align: center;
+	-webkit-appearance: none;  
+	-moz-appearance: none;
+	appearance: none;
+}  
+
+input[type='range']::-webkit-slider-thumb {  
+	-webkit-appearance: none;  
+	-moz-appearance: none;
+	appearance: none;
+	width: 20px;  
+	height: 40px;  
+}  
+
+#setting_1_display, #move_counter {
+	font-weight: 100;
+	font-size: 70px;
+}
+
+#setting_1_value, #moves {
+	font-weight: 700;
+}
+
+.btn-huge {
+	font-size: 100px;
+	line-height: 120px;
+	padding: 18px 18px 19px;
+}
+
+#back {
+	font-weight: 300;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	text-decoration: none;
+}
+
+#game_panel, #winner_panel, #loser_panel {
+	display: none;
+}
+
+#rods {
+	margin-top: 75px;
+	width: 100%;
+	text-align: left;
+
+}
+
+.rod_container {
+	position: relative;
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+div[id^="pole"] {
+	margin: auto;
+	width: 15px;
+	height: 390px; /* 64*6 */
+}
+
+
+
+div[id^="base"] {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 20px;
+}
+
+.ring_container_outer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 390px;
+	z-index: 100;
+}
+
+.ring_container_inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+div[id^="rings"] {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#base1 {
+	background-color: #C0392B;
+}
+
+#pole1 {
+	background-color: #E74C3C;
+}
+
+#base2 {
+	background-color: #7F8C8D;
+}
+
+#pole2 {
+	background-color: #95A5A6;
+}
+
+#base3 {
+	background-color: #8E44AD;
+}
+
+#pole3 {
+	background-color: #9B59B6;
+}
+
+#html5_badge {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+
+#instructions {
+	text-align: left;
+	margin-top: 75px;
+}
+
+#instructions > ul > li {
+	line-height: 30px;
+	font-size: 30px;
+	height: auto;
+	padding: 5px;
+	display: none;
+}
+
+#move_counter {
+	display: none;
+	position: absolute;
+	text-align: right;
+	top: 40%;
+	right: 50px;
+}
+
+[draggable] {
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+#game_panel * {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.ring {
+	z-index: 200;
+}
+
+#winner_panel {
+	display: none;
+}
+
+#winner_panel {
+	font-weight: 100;
+	line-height: 70px;
+	font-size: 60px;
+}
+
+.play_again {
+	margin-top: 50px;
+}

@@ -1,4 +1,6 @@
 Fluzzle
 =======
 
-A simple Flat-UI based Game template, for your own puzzle games
+Fluzzle is a simple template for creating single-page puzzle games with a flat UI. To use:
+
+For some example games, see this blog post:

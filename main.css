@@ -1,0 +1,21 @@
+/* Add your personal styles here. themes/colors go in fluzzle-colors.css. */
+
+/* Feel free to delete this style, it's just for the game placeholder */
+#game {
+	width: 100%;
+	height: 500px;
+	border: 1px solid white;
+	font-size: 100px;
+	line-height: 140px;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* If you add a panel, make sure to add it here so that it is hidden */
+#game_panel, #winner_panel, #loser_panel {
+	display: none;
+}
+#initial_settings_panel {
+	display: block;
+}

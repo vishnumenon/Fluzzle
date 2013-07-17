@@ -2,11 +2,11 @@
 
 /* Feel free to delete this style, it's just for the game placeholder */
 #game {
-	width: 100%;
+	width: 98%;
 	height: 500px;
 	border: 1px solid white;
 	font-size: 100px;
-	line-height: 140px;
+	line-height: 2;
 	text-align: center;
 	padding: 10px;
 }

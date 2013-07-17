@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300,100");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,300,100");
 @font-face {
   font-family: 'Flat-UI-Icons';
   src: url('../fonts/Flat-UI-Icons.eot');
@@ -414,7 +414,7 @@ you can use the generic selector below, but it's slower:
 }
 body {
   color: #34495e;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -422,7 +422,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 a {
@@ -979,7 +979,7 @@ h6 {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #1abc9c;
   border-radius: 50%;
   color: #ffffff;
@@ -1216,7 +1216,7 @@ input[type="color"],
 .uneditable-input {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   padding: 8px 5px;
   height: 21px;
@@ -1824,7 +1824,7 @@ textarea[class*="span"] {
   background: transparent;
   border: none;
   color: #34495e;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin: 0px;
   padding: 0 0 0 5px;
@@ -3092,7 +3092,7 @@ body.vjs-full-window {
   bottom: 4em;
   left: 1em;
   right: 1em;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .video-js .vjs-text-track {
   display: none;
@@ -3356,7 +3356,7 @@ body.vjs-full-window {
   height: 20px;
   width: 50px;
   top: 16px;
-  font: 300 13px "Lato", sans-serif;
+  font: 300 13px "Roboto", sans-serif;
 }
 .vjs-current-time {
   right: 128px;

@@ -95,8 +95,10 @@ ul {
 }
 
 .result_panel > p {
+	line-height: 1;
 	font-size: 60px;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .result_panel > h2 {
